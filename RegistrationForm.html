@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            #box{
+                height: auto;
+                width: 400px auto;
+                margin:20px 450px;
+                border: solid black;
+                background-color: lightblue;
+            }
+            #d1{
+                text-align: center;
+                margin-bottom: 5px;
+                border-bottom: solid white;
+            }
+            div{
+                margin: 10px;
+            }
+            input{
+                margin:5px;
+                padding:10px;
+                background-color: #f1f1f1;
+                border: 0px;
+            }
+            #n{
+                width:90%
+            }
+            #n2{
+                width: 55%;
+            }
+            button{
+                width: 350px;
+                height:40px;
+                margin-left: 30px;
+                background-color: greenyellow;
+            }
+        </style>
+    </head>
+    <body>
+        <title>Registration Form</title>
+
+        <Div id="box">
+            <div id="d1">
+                <h2>Student Registration Form</h2>
+            </div>
+            <div id="d2">
+                <label>
+                    First Name :
+                    <br/>
+                    <input id="n" type="text" placeholder="Enter your first name"/>
+                    <br/><br/>
+                    Middle Name :<br/>
+                    <input id="n" type="text" placeholder="Enter your middle name"/>
+                    <br/><br/>
+                    Last Name :<br/>
+                    <input id="n" type="text" placeholder="Enter our last name"/>
+                    <br/><br/>
+                    Gender :<br/>
+                    <input type="radio" name="G"/>Male
+                    <input type="radio" name="G"/>Female
+                    <input type="radio" name="G"/>Other
+                    <br/><br/>
+                    Phone No :
+                    <input type="text" Value=" +91" Size="1"/>
+                    <input id="n2" type="number" placeholder="Enter your Phone Number"/>
+                    <br/><br/>
+                    Address :
+                    <br/>
+                    <textarea id="n" cols="30" rows="4" placeholder="Permanent Address"></textarea>
+                    <br/><br/>
+                    Course : 
+                    <Select>
+                        <option>B.Tech</option>
+                        <option>M.Tech</option>
+                    </Select>
+                    <br/><br/>
+                    Stream :
+                    <Select>
+                        <option>EEE</option>
+                        <option>ECE</option>
+                        <option>ME</option>
+                        <option>CE</option>
+                        <option>CSE</option>
+                    </Select>
+                    <br/><br/>
+                    Starting Date :
+                    <input type="date"/>
+                    <br/></br/>
+                    Ending Date : 
+                    <input type="date"/>
+                </label>
+                <br/><br/>           
+                <button>Register</button>    
+            </div>
+        </Div>
+    </body>
+</html>
